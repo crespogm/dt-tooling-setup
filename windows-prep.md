@@ -1,6 +1,6 @@
 Preparacion Laboratorios
 ==================================
-Instalation
+**En esta guia vamos a estar instalando las siguientes aplicaciones**
 * vagrant
 * chocolatey
 * WSL2 con Ubuntu 22.04 image
