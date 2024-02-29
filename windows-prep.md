@@ -1,13 +1,14 @@
 Preparacion Laboratorios
 ==================================
 **En esta guia vamos a estar instalando las siguientes aplicaciones**
-* vagrant
+* Vagrant
 * Github Desktop
-* chocolatey
+* Chocolatey
 * WSL2 con Ubuntu 22.04 image
 * Ansible dentro del WLS
 * Vagrant dentro del WLS
 * VirtualBox
+* VS Code
 
 GitHub Desktop
 ------------
