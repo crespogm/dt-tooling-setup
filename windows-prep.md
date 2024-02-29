@@ -2,11 +2,18 @@ Preparacion Laboratorios
 ==================================
 **En esta guia vamos a estar instalando las siguientes aplicaciones**
 * vagrant
+* Github Desktop
 * chocolatey
 * WSL2 con Ubuntu 22.04 image
 * Ansible dentro del WLS
 * Vagrant dentro del WLS
 * VirtualBox
+
+GitHub Desktop
+------------
+**Documentacion Oficial**
+
+ https://desktop.github.com/
 
 Chocolatey
 ------------
@@ -21,9 +28,9 @@ Chocolatey
 ```
 1)Abrir un cmd como ADMINISTRADOR y lanzar el comando.
 2)@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-3) Cerrar el cmd.
-4) Abrir cmd como administrador
-5) Probar el comando choco, Ej: choco find virtualbox
+1) Cerrar el cmd.
+2) Abrir cmd como administrador
+3) Probar el comando choco, Ej: choco find virtualbox
 ```
 Virtualbox
 ------------
@@ -88,7 +95,7 @@ En el ubuntu que esta instalado dentro del windows debemos instalar los siguient
 4) pip3 install poetry
 5) vagrant plugin install vagrant-vyos
 ```
-Vagrant Boxes
+Vagrant Boxes dentro de WLS
 -------
 Con el objetivo de evitar tiempos muertos de descarga se requiere descargar las imagenes de VyOS y Ubuntu 22.04
 ```
