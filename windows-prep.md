@@ -4,11 +4,13 @@ Preparacion Laboratorios
 * Vagrant
 * Github Desktop
 * Chocolatey
+* VirtualBox
+* VS Code
 * WSL2 con Ubuntu 22.04 image
 * Ansible dentro del WLS
 * Vagrant dentro del WLS
-* VirtualBox
-* VS Code
+* VS Code dentro del WLS
+
 
 GitHub Desktop
 ------------
@@ -93,8 +95,9 @@ En el ubuntu que esta instalado dentro del windows debemos instalar los siguient
 1) sudo apt install ansible -y
 2) sudo apt install vagrant -y
 3) sudo apt install pip3 -y
-4) pip3 install poetry
-5) vagrant plugin install vagrant-vyos
+4) sudo apt install code -y
+5) pip3 install poetry
+6) vagrant plugin install vagrant-vyos
 ```
 Vagrant Boxes dentro de WLS
 -------
