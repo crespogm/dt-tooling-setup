@@ -98,6 +98,7 @@ En el ubuntu que esta instalado dentro del windows debemos instalar los siguient
 4) sudo apt install code -y
 5) pip3 install poetry
 6) vagrant plugin install vagrant-vyos
+6) vagrant plugin install virtualbox_WSL2
 7) echo "[automount]" | sudo tee -a /etc/wsl.conf
 8) echo "options = \"metadata,umask=22,fmask=11\"" | sudo tee -a /etc/wsl.conf
 ```
