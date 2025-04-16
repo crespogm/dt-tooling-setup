@@ -96,7 +96,7 @@ En el ubuntu que esta instalado dentro del windows debemos instalar los siguient
 0) sudo apt update
 1) sudo apt install ansible -y
 2) sudo apt install vagrant -y
-3) sudo apt install python-pip -y
+3) sudo apt install python3-pip -y
 4) sudo apt install code -y
 5) pip3 install poetry
 6) vagrant plugin install vagrant-vyos
