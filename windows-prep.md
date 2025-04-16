@@ -93,16 +93,15 @@ Dentro de WSL
 ------------
 En el ubuntu que esta instalado dentro del windows debemos instalar los siguientes paquetes.
 ```
-0) sudo apt update
-1) sudo apt install ansible -y
-2) sudo apt install vagrant -y
-3) sudo apt install python3-pip -y
-4) sudo apt install code -y
-5) pip3 install poetry
-6) vagrant plugin install vagrant-vyos
-6) vagrant plugin install virtualbox_WSL2
-7) echo "[automount]" | sudo tee -a /etc/wsl.conf
-8) echo "options = \"metadata,umask=22,fmask=11\"" | sudo tee -a /etc/wsl.conf
+sudo apt update;
+sudo apt install ansible -y: \
+sudo apt install vagrant -y; \
+sudo apt install python3-pip -y: \
+pip3 install poetry; \
+vagrant plugin install vagrant-vyos; \
+vagrant plugin install virtualbox_WSL2; \
+echo "[automount]" | sudo tee -a /etc/wsl.conf; \
+echo "options = \"metadata,umask=22,fmask=11\"" | sudo tee -a /etc/wsl.conf
 ```
 Vagrant Boxes dentro de WLS
 -------
