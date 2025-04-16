@@ -70,6 +70,7 @@ WSL-2 Ubuntu
  https://learn.microsoft.com/en-us/windows/wsl/install
 ```
 choco install wsl2 --params "/Version:2 /Retry:true"
+wsl --install -d Ubuntu-22.04
 ```
 **Manual, CMD como administrador**
 ```
@@ -92,6 +93,7 @@ Dentro de WSL
 ------------
 En el ubuntu que esta instalado dentro del windows debemos instalar los siguientes paquetes.
 ```
+0) sudo apt update
 1) sudo apt install ansible -y
 2) sudo apt install vagrant -y
 3) sudo apt install pip3 -y
