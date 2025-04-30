@@ -102,6 +102,8 @@ vagrant plugin install vagrant-vyos; \
 vagrant plugin install virtualbox_WSL2; \
 echo "[automount]" | sudo tee -a /etc/wsl.conf; \
 echo "options = \"metadata,umask=22,fmask=11\"" | sudo tee -a /etc/wsl.conf
+echo "[interop]" | sudo tee -a /etc/wsl.conf
+echo "appendWindowsPath = false" | sudo tee -a /etc/wsl.conf
 ```
 Vagrant Boxes dentro de WLS
 -------
