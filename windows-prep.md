@@ -104,6 +104,11 @@ echo "[automount]" | sudo tee -a /etc/wsl.conf; \
 echo "options = \"metadata,umask=22,fmask=11\"" | sudo tee -a /etc/wsl.conf
 echo "[interop]" | sudo tee -a /etc/wsl.conf
 echo "appendWindowsPath = false" | sudo tee -a /etc/wsl.conf
+echo 'export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"' | tee -a ~/.bashrc
+echo 'export PATH="$PATH:/mnt/c/Program Files (x86)/Vagrant/bin"' | tee -a ~/.bashrc
+echo 'export PATH="$PATH:/mnt/c/Windows/System32"' | tee -a ~/.bashrc
+echo 'export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0"' | tee -a ~/.bashrc
+echo 'export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS=1' | tee -a ~/.bashrc
 ```
 Vagrant Boxes dentro de WLS
 -------
