@@ -112,6 +112,11 @@ echo 'export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0"' | tee 
 echo 'export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS=1' | tee -a ~/.bashrc;\
 exit
 ```
+Reinicar el WSL para que aplique el automount y interop
+En powershell como Administrador.
+```
+wsl --shutdown
+```
 Vagrant Boxes dentro de WLS
 -------
 Con el objetivo de evitar tiempos muertos de descarga se requiere descargar las imagenes de VyOS y Ubuntu 22.04
