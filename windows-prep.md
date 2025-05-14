@@ -53,7 +53,8 @@ Vagrant
 
  https://developer.hashicorp.com/vagrant/downloads#windows
 ```
-choco install vagrant
+#No correr
+#choco install vagrant
 ```
 VS Code
 ------------
